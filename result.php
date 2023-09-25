@@ -20,6 +20,7 @@
 </head>
 <body>
     <p><?php var_dump($first_text)?></p>
+    <p><?php $first_text ?></p>
     <span><?php echo $result ?></span>
 <hr>
 <p><?php var_dump($changed_text)?></p>
