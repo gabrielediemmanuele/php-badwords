@@ -19,12 +19,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <p><?php var_dump($first_text)?></p>
-    <p><?php $first_text ?></p>
-    <span><?php echo $result ?></span>
+    <p><?php var_dump($first_text); ?></p>
+    <p><?php $first_text; ?></p>
+    <span><?php echo $result; ?></span>
 <hr>
-<p><?php var_dump($changed_text)?></p>
-    <p><?php echo $changed_text ?></p>
-    <span><?php echo $new_result ?></span>
+<p><?php var_dump($changed_text); ?></p>
+    <p><?php echo $changed_text; ?></p>
+    <span><?php echo $new_result; ?></span>
 </body>
 </html>
